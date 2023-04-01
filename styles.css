@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 .calculator-container {
-    width: 400px;
+    max-width: 500px;
+    width: 100%;
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     margin: 50px auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
@@ -16,42 +21,42 @@ body {
     color: #006837;
     text-align: center;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 form#roi-calculator .input-group {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 form#roi-calculator label {
-    flex: 0 0 70%;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
     color: #444;
+    margin-bottom: 8px;
 }
 
 form#roi-calculator input {
-    flex: 0 0 28%;
     font-size: 14px;
-    padding: 4px;
+    padding: 10px 12px;
     border: 1px solid #d9d9d9;
     border-radius: 4px;
+    width: 100%;
 }
 
 form#roi-calculator button {
     background-color: #006837;
     color: white;
-    padding: 6px 12px;
+    padding: 12px 18px;
     border: none;
     cursor: pointer;
     width: 100%;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 4px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 form#roi-calculator button:hover {
@@ -59,7 +64,7 @@ form#roi-calculator button:hover {
 }
 
 .results-container {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
 }
 

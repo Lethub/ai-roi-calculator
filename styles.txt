@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.calculator-container {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.calculator-container h1 {
+    color: #006837;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form#roi-calculator .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+form#roi-calculator label {
+    flex: 0 0 70%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+}
+
+form#roi-calculator input {
+    flex: 0 0 28%;
+    font-size: 14px;
+    padding: 4px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+form#roi-calculator button {
+    background-color: #006837;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+form#roi-calculator button:hover {
+    background-color: #00582a;
+}
+
+.results-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#roi-result {
+    font-weight: bold;
+    font-size: 18px;
+    color: #006837;
+}
